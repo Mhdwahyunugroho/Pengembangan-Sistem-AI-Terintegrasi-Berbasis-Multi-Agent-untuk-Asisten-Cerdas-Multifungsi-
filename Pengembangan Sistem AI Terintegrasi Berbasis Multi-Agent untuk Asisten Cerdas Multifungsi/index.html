@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desain dan Implementasi AI Terintegrasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pengembangan Sistem AI Terintegrasi Berbasis Multi-Agent untuk Asisten Cerdas Multifungsi</h1>
+  </header>
+
+  <div class="container">
+    <!-- Panel Input -->
+    <div class="panel">
+      <h2>Input</h2>
+      <div class="input-buttons">
+        <button>🎙 Rekam Suara</button>
+        <label for="file-upload" class="custom-file-upload">📁 Unggah Gambar / Video</label>
+        <input id="file-upload" type="file" accept="image/*,video/*">
+        <textarea rows="4" placeholder="Tulis perintah atau pertanyaan Anda..."></textarea>
+        <button>🚀 Jalankan</button>
+      </div>
+    </div>
+
+    <!-- Panel Output -->
+    <div class="panel">
+      <h2>Output</h2>
+      <div class="output-area">📝 Hasil teks NLP akan ditampilkan di sini...</div>
+      <div class="output-area">🖼️ Gambar atau video hasil analisis dengan anotasi...</div>
+      <div class="output-area">🔊 Audio hasil TTS bisa diputar di sini...</div>
+      <div class="recommendation-cards">
+        <div class="card">Rekomendasi 1</div>
+        <div class="card">Rekomendasi 2</div>
+        <div class="card">Rekomendasi 3</div>
+      </div>
+    </div>
+
+    <!-- Panel Status / Log -->
+    <div class="panel">
+      <h2>Status / Log</h2>
+      <div class="status-log">
+        <p>🔄 Menunggu input...</p>
+        <p>✅ Siap memproses data...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
